@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    background: url(../images/image\ 9.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    justify-content: center;
+    height: 15dvh;
+}
+
+h1{
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+    padding: 16px;
+    background: #225243CC;
+}
+
+nav{
+    background: #1B4436;
+    height: 4dvh;
+    color: white;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}

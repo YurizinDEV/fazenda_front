@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-body{
+body {
     align-items: center;
     max-width: 2000px;
+    width: 100%;
+    background-color: #fff;
 }

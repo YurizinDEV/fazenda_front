@@ -1,27 +1,49 @@
-header{
+header {
     display: flex;
-    background: url(../images/image\ 9.png);
-    background-size: 100% 100%;
+    background: url(../images/background.png);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 60px 0;
     justify-content: center;
-    height: 15dvh;
+    align-items: center;
+    height: 220px;
+    position: relative;
 }
 
-h1{
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+h1 {
     color: white;
     font-size: 2em;
-    margin-top: 20px;
-    padding: 16px;
-    background: #225243CC;
+    padding: 15px 30px;
+    background: rgba(34, 82, 67, 0.8);
+    border-radius: 5px;
+    text-align: center;
 }
 
-nav{
+nav {
     background: #1B4436;
-    height: 4dvh;
+    height: 40px;
     color: white;
     display: flex;
-    gap: 16px;
+    padding: 0 20px;
+    gap: 30px;
     align-items: center;
+}
+
+nav div {
+    cursor: pointer;
+    font-weight: bold;
 }

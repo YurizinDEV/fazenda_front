@@ -44,6 +44,15 @@ nav {
 }
 
 nav div {
-    cursor: pointer;
     font-weight: bold;
+    margin-left: 16px;
+}
+
+nav div label{
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+nav div label:hover {
+    color: #A4D65E;
 }

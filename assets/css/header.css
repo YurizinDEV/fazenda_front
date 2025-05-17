@@ -43,9 +43,8 @@ nav {
     align-items: center;
 }
 
-nav div {
+nav div{
     font-weight: bold;
-    margin-left: 16px;
 }
 
 nav div label{
